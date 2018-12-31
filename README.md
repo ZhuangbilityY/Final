@@ -84,11 +84,11 @@
         }
 
     }
-	```java
+	```
 	
 	
 ### 动画实现（以一个移动为例）
-	```java
+```java
 	public static TranslateTransition MoveAnimation(Individual individual, int deviateX, int deviateY) {
         TranslateTransition move = new TranslateTransition(Duration.millis(500), individual.getIndividualImageView());  //平移动画
 
@@ -100,7 +100,7 @@
 
         return move;
     }
-	```java
+```java
 	
 	
 ### 键盘响应
