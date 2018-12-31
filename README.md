@@ -51,7 +51,7 @@
 	
 ## 方法实现
 ### Individual个体线程的run
-	```java
+```java
 	public void run() {
         while(BattleField.hero_left > 0 && BattleField.villian_left > 0) {
 
@@ -84,7 +84,7 @@
         }
 
     }
-	```
+```
 	
 	
 ### 动画实现（以一个移动为例）
@@ -106,7 +106,7 @@
 ### 键盘响应
 #### 空格开始游戏，S保存游戏，L读取游戏
 #### 
-		```
+```java
 		        scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
                                   @Override
                                   public void handle(KeyEvent event) {
@@ -139,7 +139,7 @@
                               }
 
 				);
-		```
+```
 	
 ## 	 其他
 ### maven由于和jdk10.0.2似乎有不适配的地方，所以代码中没有给出测试用例
